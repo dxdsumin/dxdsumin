@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>9월 20일 실습</title>
+    <style>
+        /* CSS 코드 */
+        #button {
+            display: block;
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            top: 100px;
+            left: 100px;
+            background-color:blueviolet;
+        }
+        #target {
+            display: block;
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            top: 200px;
+            left: 100px;
+            background-color:aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="button"></div>
+    <div id="target"></div>
+    <script>
+        document.getElementById('button').onclick = function(){
+            document.getElementById('target').style.width = '400px';
+            document.getElementById('target').style.height = '400px';
+        };
+    </script>
+</body>
+    
+</html>
