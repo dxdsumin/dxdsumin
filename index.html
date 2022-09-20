@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>김수민의 메인 페이지입니다.</title>
+    <style>
+        html {
+            font-size: 16px;
+        }
+        #desktop {
+            display: block;
+            width: 100%;
+            height: 1200px;
+            background-color: azure;
+        }
+        #tablet {
+            display: none;
+            width: 100%;
+            height: 1200px;
+            background-color:rgb(234, 209, 255);
+        }
+        #mobile {
+            display: none;
+            width: 100%;
+            height: 1200px;
+            background-color:rgb(255, 232, 232);
+        }
+        @media (max-width: 1024px) {
+            #desktop {
+                display: none;
+            }
+            #tablet {
+                display: block;
+            }
+        }
+        @media (max-width: 640px) {
+            #tablet {
+                display: none;
+            }
+            #mobile {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="desktop">
+        데스크탑 버전 코드는 여기로 <br>
+        은서를 위한 친절한 설명~ <br>
+        <img src="moon.jpg" width="400">
+    </div>
+    <div id="tablet">
+        태블릿 버전 코드는 여기로
+    </div>
+    <div id="mobile">
+        소연이를 위한 모바일 버전 코드는 여기로
+    </div>
+</body>
+    
+</html>
