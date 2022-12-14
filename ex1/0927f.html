@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>9월 27일 실습 - jQuery</title>
+    <link href="0927f.css" rel="stylesheet"> <!-- 외부 CSS 연결 -->
+</head>
+
+<body>
+    <div id="btn-up">UP</div>
+    <div id="btn-right">RIGHT</div>
+    <div id="btn-down">DOWN</div>
+    <div id="btn-left">LEFT</div>
+    <div id="target01"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>
+        $('#btn-up').click(function(){
+            $('#target01').animate({'top': '-=50px'}, 300);
+        });
+        $('#btn-down').click(function(){
+            $('#target01').animate({'top': '+=50px'}, 300);
+        });
+        $('#btn-left').click(function(){
+            $('#target01').animate({'left': '-=50px'}, 300);
+        });
+        $('#btn-right').click(function(){
+            $('#target01').animate({'left': '+=50px'}, 300);
+        });
+    </script>
+</body>
+    
+</html>

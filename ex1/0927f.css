@@ -1,0 +1,65 @@
+#btn-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 170px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#btn-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 170px;
+    left: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#btn-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 170px;
+    left: 170px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#btn-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 170px;
+    left: 290px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#target01 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50vh;
+    left: 50vw;
+    color: #ffffff;
+    background-color:blueviolet;
+}
