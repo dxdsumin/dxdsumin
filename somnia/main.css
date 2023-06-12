@@ -44,6 +44,11 @@ img {
     margin-top: -25px;
     z-index: 1000;
 }
+.Cover{
+    position: relative;
+}
+.Cover > img {
+    width: 100%;
 
 li{
     padding: 0.6rem;
