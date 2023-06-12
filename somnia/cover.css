@@ -1,0 +1,21 @@
+*{
+    margin: auto 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.777);
+}
+
+.Cover{
+    position: relative;
+}
+.Cover > img {
+    width: 100%;
+}
+.Logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
