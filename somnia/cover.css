@@ -2,6 +2,9 @@
     margin: auto 0;
     padding: 0;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 
 body {
     background-color: rgba(0, 0, 0, 0.777);
@@ -12,6 +15,7 @@ body {
 }
 .Cover > img {
     width: 100%;
+    background: fixed;
 }
 .Logo{
     position: absolute;
