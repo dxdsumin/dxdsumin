@@ -44,11 +44,6 @@ img {
     margin-top: -25px;
     z-index: 1000;
 }
-.Cover{
-    position: relative;
-}
-.Cover > img {
-    width: 100%;
 
 li{
     padding: 0.6rem;
@@ -71,6 +66,14 @@ a{
     width: 100%;
     margin: 10px auto;
     text-align: center;
+}
+
+.Cover{
+    position: relative;
+}
+.Cover > img {
+    width: 100%;
+    background: fixed;
 }
 .user-text{
     position: relative;
