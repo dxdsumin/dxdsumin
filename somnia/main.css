@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "HeiroLight";
+/*     src: url("fonts/HeirofLightOTFRegular.otf") format("opentype"); */
+    src: url("fonts/HeirofLightRegular.ttf") format("truetype");
+}
+
 body {
     -ms-overflow-style: none;
     height:fit-content;
-    background-color: rgba(0, 0, 0, 0.777);
+    background-color: rgb(60, 60, 60);
 }
 
 img {
@@ -17,30 +23,30 @@ img {
     display: none;
 }
 
+.top-nav{
+        position: fixed;
+        height: 10px;
+        width: 100%;
+        top: 20px;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        z-index: 1001;
+}
+
 .button{
     border: 0;
     outline: 0;
     list-style: none;
-
 }
 
-.top-nav{
-        position: fixed;
-        height: 20px;
-        width: 100%;
-        top: 0;
-        display: flex;
-        margin-top: 20px;
-        justify-content: flex-end;
-        z-index: 1001;
-}
 
 .nav-box{
     position: fixed;
     width: 100%;
-    height: 150px;
+    height: 140px;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.777);
+    background-color: rgb(60, 60, 60);
     margin-top: -25px;
     z-index: 1000;
 }
@@ -53,9 +59,9 @@ a{
     color: white;
         text-decoration-line: none;
 }
-.lastBtn{
+/* .lastBtn{
     margin-right: 55px;
-}
+} */
 
 .Hp{
     margin-top: 60px;
@@ -73,19 +79,50 @@ a{
 }
 .Cover > img {
     width: 100%;
-    background: fixed;
+    position: fixed;
+    z-index: 1005;
+    left: -3px;
+    top: -1px;
 }
+.PT{
+    width: 100%;
+    text-align: center;
+    margin-top: 180px;
+}
+.PT>img{
+    width: 15%;
+}
+.PT1{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.PT1>img{
+    width: 15%;
+}
+
 .user-text{
     position: relative;
     width: 100%;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: -50px;
+    font-size: 15px;
     text-align: center;
     color: white;
 }
 .user-wrap > img{
     position: relative;
     width: 600px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
+    margin-top: 200px;
+}
+
+.bottom-box{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: rgb(60, 60, 60);
+    margin-top: -25px;
+    z-index: 1000;
 }
