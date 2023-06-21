@@ -16,4 +16,5 @@ clickload.addEventListener('click', function(){
     console.log("로딩중");
     load.style.visibility = 'visible';
     clickload.style.visibility = 'hidden';
+    setTimeout(()=>location.href="Story.html",3500);
 })
