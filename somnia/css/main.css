@@ -6,13 +6,14 @@
 @font-face {
     font-family: "HeiroLight";
 /*     src: url("fonts/HeirofLightOTFRegular.otf") format("opentype"); */
-    src: url("fonts/HeirofLightRegular.ttf") format("truetype");
+    src: url("../fonts/HeirofLightRegular.ttf") format("truetype");
 }
 
 body {
     -ms-overflow-style: none;
     height:fit-content;
     background-color: rgb(60, 60, 60);
+    font-family: 'HeiroLight';
 }
 
 img {
@@ -38,6 +39,7 @@ img {
     border: 0;
     outline: 0;
     list-style: none;
+    font-weight: bold;
 }
 
 
