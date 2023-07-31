@@ -1,0 +1,43 @@
+.Cbox{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+.Cbox1{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.Cbox1-three{
+    position: relative;
+    width: 20%;
+}
+.Cbox1-img{
+}
+.Cbox1-img>img{
+    width: 100%;
+}
+.Cbox1-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+}
+
+
+.Cbox2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Cbox3>img{
+    width: 20%;
+}

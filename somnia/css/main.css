@@ -139,8 +139,8 @@ p{
 
 .character-content{
     text-align: center;
-    margin-top: 15vw;
-    font-size: 25px;
+    margin-top: 10vw;
+    font-size: 30px;
 }
 
 .characterPT1 > img {
@@ -149,6 +149,10 @@ p{
     z-index: 1005;
     left: -3px;
     top: -1px;
+}
+.character-content > p {
+    margin-top: 5px;
+    margin-bottom: -55px;
 }
 
 .characterPT1{
