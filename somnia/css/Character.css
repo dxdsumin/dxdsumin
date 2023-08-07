@@ -67,13 +67,14 @@ H1{
 .Cbox3-text{
     text-align: left;
     position: relative;
-    left: 360px;
+    left: 280px;
 }
 
 .Cbox3-img{
     position: relative;
     width: 50%;
     height: 100%;
+    right: 90px;
 }
 .Cbox-Full, .Cbox-Full2{
     position: absolute;
@@ -90,7 +91,7 @@ H1{
 }
 
 .Cbox4{
-    width: 700px;
+    width: 900px;
     height: 400px;
     margin: auto;
 }
@@ -101,6 +102,12 @@ H1{
 .Cbox-Full4{
     width: 100%;
 }
-.Cbox-Full4>img{
-    width: 10%;
+/* .Cbox4-img>img{
+    width: 20%;
+} */
+.Cbox-Full4-1{
+    float: left;
+}
+.Cbox-Full4-2{
+    float: right;
 }
