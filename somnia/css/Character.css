@@ -16,7 +16,21 @@
     width: 20%;
 }
 .Cbox1-img{
+    margin: 0px auto;
+    position: relative;
 }
+
+ .M-O2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.Cbox1-img:hover + .M-O2{
+    display: block;
+}
+
+
 .Cbox1-img>img{
     width: 100%;
 }
@@ -35,7 +49,8 @@
     width: 50%;
     text-align: center;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 .Cbox3 {
     width: 700px;
@@ -44,6 +59,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 120px;
+}
+H1{
+    color: white;
+}
+.Cbox3-text{
+    text-align: left;
+    position: relative;
+    left: 360px;
 }
 
 .Cbox3-img{
@@ -78,5 +102,5 @@
     width: 100%;
 }
 .Cbox-Full4>img{
-    width: 100%;
+    width: 10%;
 }
