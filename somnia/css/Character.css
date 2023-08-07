@@ -20,7 +20,7 @@
     position: relative;
 }
 
- .M-O2{
+.M-O2{
     position: absolute;
     top: 0px;
     left: 0px;
@@ -94,10 +94,19 @@ H1{
     width: 900px;
     height: 400px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .Cbox4-img{
+    position: relative;
     width: 100%;
+}
+.Cbox4-text{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    transform: translate(40%, 0%);
+    margin-bottom: 50px;
 }
 .Cbox-Full4{
     width: 100%;
@@ -106,8 +115,12 @@ H1{
     width: 20%;
 } */
 .Cbox-Full4-1{
+    position: relative;
     float: left;
+    vertical-align: middle;
 }
 .Cbox-Full4-2{
+    position: relative;
     float: right;
+    transform: translate(0%, 190%);
 }
