@@ -11,11 +11,11 @@
     text-align: center;
     margin: auto;
 }
-.Cbox1-three{
+.Cbox1-three, .Cbox2-three{
     position: relative;
     width: 20%;
 }
-.Cbox1-img{
+.Cbox1-img, .Cbox2-img{
     margin: 0px auto;
     position: relative;
 }
@@ -26,12 +26,12 @@
     left: 0px;
     display: none;
 }
-.Cbox1-img:hover + .M-O2{
+.Cbox2-img:hover + .M-O2{
     display: block;
 }
 
 
-.Cbox1-img>img{
+.Cbox1-img>img, .Cbox2-img>img{
     width: 100%;
 }
 .Cbox1-text{
@@ -105,7 +105,7 @@ H1{
     position: absolute;
     top: 50px;
     text-align: center;
-    transform: translate(40%, 0%);
+    transform: translate(50%, 0%);
     margin-bottom: 50px;
 }
 .Cbox-Full4{

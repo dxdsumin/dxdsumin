@@ -89,6 +89,7 @@ a{
     z-index: 1005;
     left: -3px;
     top: -1px;
+    pointer-events: none;
 }
 .PT{
     width: 100%;
