@@ -1,0 +1,207 @@
+*{
+    margin: auto 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "HeiroLight";
+/*     src: url("fonts/HeirofLightOTFRegular.otf") format("opentype"); */
+    src: url("../fonts/HeirofLightRegular.ttf") format("truetype");
+}
+
+body {
+    -ms-overflow-style: none;
+    height:fit-content;
+    font-family: 'HeiroLight';
+    /* background-image: url('../webproimg/oldschool.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+div {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.backgroundimg1 {
+    background: url('../webproimg/oldschool.png') no-repeat;
+    background-attachment: fixed;
+}
+
+.backgroundimg1>img {
+    width: 100%;
+}
+
+.backgroundimg2 {
+    background:url('../webproimg/oldschool2.png') no-repeat;
+    background-attachment: fixed;
+}
+
+.backgroundimg2>img {
+    width: 100%;
+}
+
+.backblurtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.backblurtext>p {
+    background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+/* backgruond-attachment: fixed; */
+
+
+img {
+    vertical-align: bottom;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.top-nav{
+        position: fixed;
+        height: 10px;
+        width: 100%;
+        top: 20px;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        z-index: 1010;
+}
+
+.button{
+    border: 0;
+    outline: 0;
+    list-style: none;
+    font-weight: bold;
+}
+.button > a {
+    display: block;
+}
+
+
+.nav-box{
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    background-color: rgb(60, 60, 60);
+    margin-top: -25px;
+    z-index: 1000;
+}
+
+li{
+    padding: 0.6rem;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+    display: block;
+}
+/* .lastBtn{
+    margin-right: 55px;
+} */
+
+/* .Hp{
+    margin-top: 60px;
+} */
+
+.user-wrap{
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.Cover{
+    position: relative;
+}
+.Cover > img {
+    width: 100%;
+    position: fixed;
+    z-index: 1005;
+    left: -3px;
+    top: -1px;
+    pointer-events: none;
+}
+.PT{
+    width: 100%;
+    text-align: center;
+    margin-top: 180px;
+}
+.PT>img{
+    width: 15%;
+}
+.PT1{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.PT1>img{
+    width: 12%;
+    margin-top: 10px;
+}
+
+.user-text{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: -50px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.user-wrap > img{
+    position: relative;
+    width: 600px;
+    margin-bottom: 180px;
+    margin-top: 200px;
+}
+
+.bottom-box{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    background-color: rgb(60, 60, 60);
+    margin-top: -25px;
+    z-index: 1000;
+}
+
+p{
+    color: white;
+}
+
+.character-content{
+    text-align: center;
+    margin-top: 10vw;
+    font-size: 30px;
+}
+
+.characterPT1 > img {
+    width: 15%;
+    position: fixed;
+    z-index: 1005;
+    left: -3px;
+    top: -1px;
+}
+.character-content > p {
+    margin-top: 5px;
+    margin-bottom: -55px;
+    font-size: 30px;
+}
+
+.characterPT1{
+    width: 100%;
+}
