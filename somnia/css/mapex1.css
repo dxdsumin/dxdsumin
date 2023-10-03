@@ -1,0 +1,187 @@
+*{
+    margin: auto 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "HeiroLight";
+/*     src: url("fonts/HeirofLightOTFRegular.otf") format("opentype"); */
+    src: url("../fonts/HeirofLightRegular.ttf") format("truetype");
+}
+
+body {
+    height: 5000px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* overflow-y: hidden;
+    height:fit-content; */
+    font-family: 'HeiroLight'; 
+    margin: 0; padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    /* letter-spacing:-30px */
+}
+p{
+    /* text-align: left; */
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* 스크롤바 배경을 투명으로 설정 */
+}
+
+
+#box1 {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    background-color: #000;
+}
+
+#OH1 {
+    position: fixed;
+    top: -2000px;
+    left: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#OH2 {
+    position: fixed;
+    top: 500px;
+    right: -2000px;
+    width: 800px;
+}
+
+#bg-img1 {
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+#bg-img1 > img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#oldschool1 {
+    position: fixed;
+    width: 100px;
+    top: 120px;
+    left: -2000px;
+    height: 400px;
+    /* text-align: center; */
+    font-size: 45px;
+    right: 100px;
+}
+
+#oldschool2 {
+    position: fixed;
+    top: 200px;
+    right: -2000px;
+    width: 700px;
+    text-align: left;
+}
+#bg-img2 {
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+#bg-img2 > img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*이미지를 부모 요소에 맞게 조정 (가로세로 비율 유지) */
+    pointer-events: none; /* 이미지를 마우스 이벤트 대상에서 제외합니다. */
+}
+
+#AP1 {
+    position: fixed;
+    top: 300px;
+    right: -2000px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#AP2 {
+    position: fixed;
+    top: 500px;
+    right: -2000px;
+    width: 800px;
+    text-align: center;
+}
+
+#bg-img3 {
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    pointer-events: none;
+}
+
+#bg-img3 > img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#F1 {
+    position: fixed;
+    bottom: -2000px;
+    left: 679px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#F2 {
+    position: fixed;
+    top: 450px;
+    right: -2000px;
+    width: 700px;
+    text-align: center;
+    }
+
+#bg-img4 {
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    pointer-events: none;
+}
+
+#bg-img4 > img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
