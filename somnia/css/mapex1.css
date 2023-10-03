@@ -18,6 +18,47 @@ body {
     font-family: 'HeiroLight'; 
     margin: 0; padding: 0;
 }
+.top-nav{
+    position: fixed;
+    height: 10px;
+    width: 100%;
+    top: 20px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    z-index: 1010;
+}
+
+.button{
+    border: 0;
+    outline: 0;
+    list-style: none;
+    font-weight: bold;
+}
+.button > a {
+    display: block;
+}
+li{
+    padding: 0.6rem;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+    display: block;
+}
+
+.Cover{
+    position: relative;
+}
+.Cover > img {
+    width: 100%;
+    position: fixed;
+    z-index: 1005;
+    left: -3px;
+    top: -1px;
+    pointer-events: none;
+}
 
 h1{
     text-align: center;
@@ -48,7 +89,7 @@ p{
 #OH1 {
     position: fixed;
     top: -2000px;
-    left: 100px;
+    left: 130px;
     text-align: center;
     font-size: 40px;
 }

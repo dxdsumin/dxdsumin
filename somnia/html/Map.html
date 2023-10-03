@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> SOMNIA </title>
-    <link href="../css/main.css" rel="stylesheet">
-    <link href="../css/Map.css" rel="stylesheet">
+    <title>스크롤 이벤트</title>
+    <link href="../css/mapex1.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,59 +24,228 @@
         <img src="../webproimg/CoverP.png">
     </div>
 
-    <div class="character-content">
-        <div class="PT">
+    <!-- <div id="box1">
+    </div> -->
+
+    <div id="bg-img1">
+        <img src="../webproimg/OH.png">
+    </div>
+
+    <div id="bg-img2">
+        <img src="../webproimg/oldschool1.png">
+    </div>
+
+    <div id="bg-img3">
+        <img src="../webproimg/AP.png">
+    </div>
+
+    <div id="bg-img4">
+        <img src="../webproimg/F.png">
+    </div>
+
+    <div id="OH1">
+        <h1>버려진 동네</h1>
+    </div>
+    <div id="OH2">
+        <p>
+            악몽의 초입으로 꿈의 주인이었던 서현의 기억이 섞여 나현이 살던 동네와 유사한 형태를 띄고 있다.<br><br>
+            그러나 버려진 동네라는 이름처럼 여기저기 폐허가 된 집들과 상가가 보이며<br>
+            안개가 자욱하게 껴 음산한 분위기가 감돈다.<br><br>
+            첫 번째 악이자 울프가 집어삼킨 후 도로 뱉어낸 찌꺼기들이 기생하며 살아가는 그것들은 형태 없는 사념체들에 가까우며,<br>
+            동네에서 빠져나가기 위해서는 분노를 제압해야 한다.
+        </p>
+    </div>
+
+    <div id="oldschool1">
+        <!-- <div class="PT">
             <img src="../webproimg/geulPT1.png">
-        </div>
-        <p>게임 지도</p>
-        <div class="PT1">
+        </div> -->
+        <h1>폐교</h1>
+        <!-- <div class="PT1">
             <img src="../webproimg/geulPT2.png">
-        </div>
+        </div> -->
+    </div>
+    <div id="oldschool2">
+        <p>
+            서현이 현재 재학 중인 초등학교이자 나현의 모교이다. <br>
+            기존의 밝고 평화로운 분위기의 조경이 전부 무너져 기이한 형태가 되었으며,<br>
+            서현이 들어온 여러 괴담들이 얽혀 있기도 한 공간이다.<br><br>
+            울프에게 소화되는 중인 두 번째 공포로 불리는 인간이자 인간으로 부를 수 없는 것들과<br>
+            곳곳에 산개한 교만을 이겨내며 나아가야 한다.
+        </p>
     </div>
 
-    <div class="nav-box"></div>
-
-    <div class="Mbox">
-        <div class="Mbox1">
-            <div class="Mbox1-N" id="mbox1-1">
-                <div class="Mbox1-img"><img src="../webproimg/a.box01.png"></div>
-                <div class="Mbox1-text"><p>버려진 동네</p></div>
-            </div>
-            <div class="Mbox1-N" id="mbox1-2">
-                <div class="Mbox1-img"><img src="../webproimg/a.box01.png"></div>
-                <div class="Mbox1-text"><p>폐교</p></div>
-            </div>
-            <div class="Mbox1-N" id="mbox1-3">
-                <div class="Mbox1-img"><img src="../webproimg/a.box01.png"></div>
-                <div class="Mbox1-text"><p>놀이동산</p></div>
-            </div>
-            <div class="Mbox1-N" id="mbox1-4">
-                <div class="Mbox1-img"><img src="../webproimg/a.box01.png"></div>
-                <div class="Mbox1-text"><p>숲 속</p></div>
-            </div>
-        </div>
-
-        <div class="Mbox2">
-            <div class="Mbox2-bigimg"><img src="../webproimg/proH.png"></div>
-        </div>
-
-        <div class="Mbox3">
-            <div class="Mbox3-text">
-                <H1>버려진 동네</H1><br>
-                <p>악몽의 초입으로, 꿈의 주인이었던 서현의 기억이 섞여<br>
-                    나현이 살던 동네와 유사한 형태를 띄고 있다.<br>
-                    그러나 버려진 동네라는 이름처럼 여기저기 폐허가 된 집들과 상가가 보이며<br>
-                    안개가 자욱하게 껴 음산한 분위기가 감돈다.<br><br>
-                    첫 번째 악이자 울프가 집어삼킨 후 도로 뱉어낸 찌꺼기들이 기생하며 살아간다.<br>
-                    그것들은 형태 없는 사념체들에 가까우며, <br>
-                    동네에서 빠져나가기 위해서는 분노(1장보스 이름 지정)를 물리쳐야 한다.
-                </p>
-            </div>
-        </div>
+    <div id="AP1">
+        <h1>놀이동산</h1>
+    </div>
+    <div id="AP2">
+        <p>
+            폐교 뒤편 오솔길을 따라 언덕 위로 오르면 한눈에 담기는 밝은 빛.<br>
+            나현의 18살 생일 당시 함께 놀러 왔던 곳이자 가장 최근의 행복했던 기억이 담긴 장소이다.<br><br>
+            밝은 빛 아래 쓸쓸히 선 캐릭터 표지판을 지나면 한 서린 고요함만이 존재하고,<br>
+            더욱 짙어진 안개와 멀리서 들리는 누군가의 울음소리에 더해 각종 기구들이 삐걱이는 소리가 적막을 깬다.<br><br>
+            세 번째 절망의 나태를 죽이고 울프에게 다가가자.<br><br>
+        </p>
     </div>
 
-    <div class="bottom-box"></div>
+    <div id="F1">
+        <h1>숲 속</h1>
+    </div>
+    <div id="F2">
+        <p>
+            섬찟하게 들려오는 짐승 우짖는 소리. 짙은 안개를 뚫는 살기, 살의.<br>
+            악이자 공포. 절망 그리고 악몽.<br><br>
+            그것들의 신<br><br>
+            아슬히 놓인 길을 따라 나아가며 길과 길이 아닌 것을 점차 구분 짓지 못하게 되는 순간,<br>
+            당신은 태초의 탐욕을 마주하게 될 것이다.
+        </p>
+    </div>
 
-    <script src="../js/map.js"></script>
+
+    <!-- jQuery 라이브러리 연결 -->
+    <script type="text/javascript" src="../js/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(function(){
+            $(window).on('scroll', function(){
+                // 브라우저의 스크롤 상단값(scrollTop)을 변수 yPos에 저장
+                var yPos = $(window).scrollTop();
+
+                // id가 box1인 요소의 텍스트에 변수 yPos 값 입력
+                // $('#box1').text(yPos);
+                
+                //버려진 동네
+                if(yPos >= 300) {
+                    $('#OH1').stop().animate({'top': '250px'}, 500);
+                    $('#bg-img1').css({"filter": "blur(5px)"});
+                }else {
+                    $('#OH1').stop().animate({'top': '-2000px'}, 500);
+                    $('#bg-img1').css({"filter": "blur(0px)"});
+                }
+                if (yPos >= 1300){
+                    $('#OH1').stop().animate({'top': '-2000px'}, 500);
+                }
+
+                if(yPos >= 400) {
+                    $('#OH2').stop().animate({'left': '100px'}, 500);
+                } else {
+                    $('#OH2').stop().animate({'left': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 1300) {
+                    $('#OH2').stop().animate({'left': '-2000px'}, 500);
+                }
+
+                if (yPos >= 1300) {
+                    $('#bg-img1').stop().animate({'top': '-2000px'}, 500);
+                }
+                if (yPos <= 1300){
+                    $('#bg-img1').stop().animate({'top': '0'}, 300);
+                }
+
+                //폐교
+                if(yPos >= 1400) {
+                    $('#oldschool1').stop().animate({'left': '240px'}, 500);
+                    $('#bg-img2').css({"filter": "blur(0px)"});
+                }else {
+                    $('#oldschool1').stop().animate({'left': '-2000px'}, 500);
+                    $('#bg-img2').css({"filter": "blur(4px)"});
+                }
+                if(yPos >= 1800) {
+                    $('#bg-img2').css({"filter": "blur(4px)"});}
+
+                if (yPos >= 2400){
+                    $('#oldschool1').stop().animate({'left': '-2000px'}, 500);
+                }
+                
+
+                if(yPos >= 1750) {
+                    $('#oldschool2').stop().animate({'right': '450px'}, 500);
+                } else {
+                    $('#oldschool2').stop().animate({'right': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 2400) {
+                    $('#oldschool2').stop().animate({'right': '-2000px'}, 500);
+                }
+
+                if (yPos >= 2400) {
+                    $('#bg-img2').stop().animate({'top': '-2000px'}, 500);
+                }
+                if (yPos <= 2400){
+                    $('#bg-img2').stop().animate({'top': '0'}, 300);
+                }
+
+                //놀이동산
+                if(yPos >= 2500) {
+                    $('#AP1').stop().animate({'right': '360px'}, 500);
+                    $('#bg-img3').css({"filter": "blur(0px)"});
+                }else {
+                    $('#AP1').stop().animate({'right': '-2000px'}, 500);
+                    $('#bg-img3').css({"filter": "blur(4px)"});
+                }
+                if(yPos >= 3000) {
+                    $('#bg-img3').css({"filter": "blur(4px)"});}
+
+                if (yPos >= 3600){
+                    $('#AP1').stop().animate({'right': '-2000px'}, 500);
+                }
+                
+
+                if(yPos >= 2900) {
+                    $('#AP2').stop().animate({'left': '600px'}, 500);
+                } else {
+                    $('#AP2').stop().animate({'left': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 3600) {
+                    $('#AP2').stop().animate({'left': '-2000px'}, 500);
+                }
+
+                if (yPos >= 3600) {
+                    $('#bg-img3').stop().animate({'top': '-2000px'}, 500);
+                }
+                if (yPos <= 3600){
+                    $('#bg-img3').stop().animate({'top': '0'}, 300);
+                }
+
+                //숲 속
+                if(yPos >= 3700) {
+                    $('#F1').stop().animate({'bottom': '500px'}, 500);
+                    $('#bg-img4').css({"filter": "blur(0px)"});
+                }else {
+                    $('#F1').stop().animate({'bottom': '-2000px'}, 500);
+                    $('#bg-img4').css({"filter": "blur(4px)"});
+                }
+                if(yPos >= 4100) {
+                    $('#bg-img4').css({"filter": "blur(4px)"});}
+
+                if (yPos >= 4700){
+                    $('#F1').stop().animate({'bottom': '-2000px'}, 500);
+                }
+                
+
+                if(yPos >= 4050) {
+                    $('#F2').stop().animate({'right': '418px'}, 500);
+                } else {
+                    $('#F2').stop().animate({'right': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 4700) {
+                    $('#F2').stop().animate({'right': '-2000px'}, 500);
+                }
+
+                if (yPos >= 4700) {
+                    $('#bg-img4').stop().animate({'top': '-2000px'}, 500);
+                }
+                if (yPos <= 4700){
+                    $('#bg-img4').stop().animate({'top': '0'}, 300);
+                }
+
+            });
+        });
+
+    </script>
 </body>
+    
 </html>
