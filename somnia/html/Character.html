@@ -59,7 +59,7 @@
                     <img src="../webproimg/YNH1.png" alt="" class="M-O1">
                     <!-- <img src="../webproimg/YNH01.png" alt="" class="M-O2"> -->
                 </div>
-            </div>                                                                      
+            </div>
             <div class="Cbox2-three">
                 <div class="Cbox2-img" id="Cbox2-2">
                     <img src="../webproimg/M1.png"></div>
@@ -102,8 +102,8 @@
 
     <div class="bottom-box">
     </div>
-    <script src="../js/ex2-2.js"></script>
-    <script>
+    <script src="../js/ex2-1.js"></script>
+    <!-- <script>
         // '신' 캐릭터 클릭 이벤트
         document.querySelector("#namebox1-2").addEventListener('click', function() {
             var scriptTag = document.querySelector("script[src]");
@@ -151,7 +151,6 @@
     </script>
 
 
-    //악몽js
     <script>
         document.querySelector("#namebox1-3").addEventListener('click', function() {
             var scriptTag = document.querySelector("script[src]");
@@ -161,26 +160,27 @@
             } else {
                 console.log("No script with src attribute found.");
             }
-            // '신.js' 파일 로드
+            // '악몽.js' 파일 로드
             var script = document.createElement('script');
-            script.src = '../js/ex2.js'; //수정
+            script.src = '../js/ex2-4.js'; //수정
 
-            // '신.js' 파일이 로드된 후 실행되는 콜백
+            // '악몽.js' 파일이 로드된 후 실행되는 콜백
             script.onload = function() {
-                console.log("success악몽")
+                console.log("success악몽");
+                console.log(script);
                 // Cbox2-4 요소를 숨기거나 제거 (선택적)
                 var cbox2_4 = document.querySelector(".Cbox2-three:nth-child(4)");
                 if (cbox2_4) {
                     cbox2_4.style.display = 'none'; // **숨기기**
                     //cbox2_4.remove(); // 제거
                 var cbox2_1Image = document.querySelector("#Cbox2-1 img");
-                cbox2_1Image.setAttribute("src", "../webproimg/On1.png");
+                cbox2_1Image.setAttribute("src", "../webproimg/W1.png");
                 }
                 
-                // '신' 캐릭터 정보 업데이트
-                image2.setAttribute("src","../webproimg/On.png");
+                // '악몽' 캐릭터 정보 업데이트
+                image2.setAttribute("src","../webproimg/W.png");
                 text2.innerHTML = 
-                    '<h1>신</h1><p>신 캐릭터에 대한 설명</p>' +
+                    '<h1>악몽</h1><p>악몽 캐릭터에 대한 설명</p>' +
                     // '신' 캐릭터에 대한 정보 업데이트
                     '<p>나이: 신의 나이<br>' +
                     '키/몸무게: 신의 키/몸무게<br>' +
@@ -243,6 +243,7 @@
             // 현재 로딩된 스크립트 요소를 삭제
             var currentScript = document.querySelector("script[src='"+srcAttribute+"']");
             if (srcAttribute) {
+                console.log("successremove")
                 currentScript.remove();
             }
 
@@ -250,7 +251,7 @@
             document.head.appendChild(script);
         });
     </script>
-    <!-- <script src="../js/ex2-3.js"></script> -->
+    <script src="../js/ex2-3.js"></script> -->
 </body>
 
 </html>

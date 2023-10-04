@@ -23,7 +23,13 @@ mbox21.addEventListener('click', function(){
 
 mbox22.addEventListener('click', function(){
     // '신' 캐릭터 2에 대한 정보 업데이트
-    // ...
+    image2.setAttribute("src","../webproimg/O.png"); // '신' 캐릭터 이미지 경로로 수정
+    text2.innerHTML = 
+        '<h1>웅녀</h1><p>신 캐릭터에 대한 설명</p>' +
+        // '신' 캐릭터에 대한 정보 업데이트
+        '<p>나이: 신의 나이<br>' +
+        '키/몸무게: 신의 키/몸무게<br>' +
+        '기타 신에 대한 정보</p>';
 });
 
 mbox23.addEventListener('click', function(){
