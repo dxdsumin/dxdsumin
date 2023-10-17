@@ -32,7 +32,7 @@
     </div>
 
     <div id="bg-img2">
-        <img src="../webproimg/oldschool1.png">
+        <img src="../webproimg/oldschool.png">
     </div>
 
     <div id="bg-img3">
@@ -55,6 +55,8 @@
             동네에서 빠져나가기 위해서는 분노를 제압해야 한다.
         </p>
     </div>
+    
+    <img id="OH3" src="../webproimg/monster2.png">
 
     <div id="oldschool1">
         <!-- <div class="PT">
@@ -74,6 +76,8 @@
             곳곳에 산개한 교만을 이겨내며 나아가야 한다.
         </p>
     </div>
+
+    <img id="oldschool3" src="../webproimg/monster1.png">
 
     <div id="AP1">
         <h1>놀이동산</h1>
@@ -100,6 +104,8 @@
             당신은 태초의 탐욕을 마주하게 될 것이다.
         </p>
     </div>
+
+    <img id="F3" src="../webproimg/F2.png">
 
 
     <!-- jQuery 라이브러리 연결 -->
@@ -136,6 +142,17 @@
                     $('#OH2').stop().animate({'left': '-2000px'}, 500);
                 }
 
+                if(yPos >= 400) {
+                    $('#OH3').stop().animate({'right': '100px'}, 500);
+                } else {
+                    $('#OH3').stop().animate({'right': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 1300) {
+                    $('#OH3').stop().animate({'right': '-2000px'}, 500);
+                }
+
+
                 if (yPos >= 1300) {
                     $('#bg-img1').stop().animate({'top': '-2000px'}, 500);
                 }
@@ -168,6 +185,17 @@
                 if(yPos >= 2400) {
                     $('#oldschool2').stop().animate({'right': '-2000px'}, 500);
                 }
+
+                if(yPos >= 1750) {
+                    $('#oldschool3').stop().animate({'right': '200px'}, 500);
+                } else {
+                    $('#oldschool3').stop().animate({'right': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 2400) {
+                    $('#oldschool3').stop().animate({'right': '-2000px'}, 500);
+                }
+
 
                 if (yPos >= 2400) {
                     $('#bg-img2').stop().animate({'top': '-2000px'}, 500);
@@ -240,6 +268,17 @@
                 }
                 if (yPos <= 4700){
                     $('#bg-img4').stop().animate({'top': '0'}, 300);
+                }
+
+                //4
+                if(yPos >= 4050) {
+                    $('#F3').stop().animate({'bottom': '-300px'}, 500);
+                } else {
+                    $('#F3').stop().animate({'bottom': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 4700) {
+                    $('#F3').stop().animate({'bottom': '-2000px'}, 500);
                 }
 
             });

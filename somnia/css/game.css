@@ -1,0 +1,33 @@
+#content{
+    padding: 50px;
+    padding-bottom: 0;
+    text-align: center;
+    }
+
+#bigImages{
+    margin-bottom: 30px;
+    }
+#big{
+    /* width: 370px; */
+    height: 370px;
+    border-radius: 8px;
+    outline : solid 8px rgb(251, 254, 255);
+    }
+.small{
+    width: 150px;
+    height: 150px;
+    opacity: 70%;
+    border-radius: 30px;
+    }
+#smallImages{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+#smallImages>img{
+    margin: 10px;
+}

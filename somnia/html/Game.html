@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> SOMNIA </title>
     <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/game.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,6 +20,9 @@
         </ul>
     </nav>
 
+    <div class="nav-box">
+    </div>
+
     <div class="Cover">
         <img src="../webproimg/CoverP.png">
     </div>
@@ -32,5 +36,40 @@
             <img src="../webproimg/geulPT2.png">
         </div>
     </div>
+
+    <div id="content">
+        <div id="bigImages">
+            <img id="big" src="../webproimg/ui1.png">
+        </div>
+        <div id="smallImages">
+            <img class="small" src="../webproimg/ui1.png">
+            <img class="small" src="../webproimg/ui2.png">
+            <img class="small" src="../webproimg/ui3.png">
+            <img class="small" src="../webproimg/ui4.png">
+            <img class="small" src="../webproimg/ui5.png">
+            <img class="small" src="../webproimg/ui6.png">
+            <img class="small" src="../webproimg/ui7.png">
+            <img class="small" src="../webproimg/ui8.png">
+            <img class="small" src="../webproimg/ui9.png">
+            <img class="small" src="../webproimg/ui10.png">
+            <img class="small" src="../webproimg/ui11.png">
+        </div>
+    </div>
+
+    <div class="bottom-box"></div>
+
+    <script>
+    var bigPic = document.querySelector("#big");
+var smallPics = document.querySelectorAll(".small");
+
+for(var i = 0 ; i < smallPics.length ; i++){
+    smallPics[i].onclick = changepic;
+}
+
+function changepic(){
+    var smallPicAttribute = this.getAttribute("src");
+    bigPic.setAttribute("src", smallPicAttribute);
+}
+</script>
 
 </body>

@@ -97,8 +97,15 @@ p{
 #OH2 {
     position: fixed;
     top: 500px;
-    right: -2000px;
+    left: -2000px;
     width: 800px;
+}
+
+#OH3 {
+    position: fixed;
+    top: 200px;
+    right: -2000px;
+    width: 400px;
 }
 
 #bg-img1 {
@@ -138,6 +145,15 @@ p{
     width: 700px;
     text-align: left;
 }
+
+#oldschool3 {
+    position: fixed;
+    top: 450px;
+    right: -2000px;
+    width: 400px;
+    text-align: left;
+}
+
 #bg-img2 {
     position: fixed;
     object-fit: cover;
@@ -207,6 +223,16 @@ p{
     width: 700px;
     text-align: center;
     }
+
+#F3 {
+    position: fixed;
+    bottom: -2000px;
+    left: 0px;
+    text-align: center;
+    font-size: 40px;
+    z-index: -3;
+    width: 110%;
+}
 
 #bg-img4 {
     position: fixed;
