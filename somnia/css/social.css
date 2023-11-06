@@ -4,3 +4,8 @@ video{
     display: block;
     margin: 50px auto;
 }
+.team_text{
+    margin-bottom: 80px;
+    text-align: left;
+    margin-left: 380px;
+}

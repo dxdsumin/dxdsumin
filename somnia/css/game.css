@@ -14,20 +14,20 @@
     outline : solid 8px rgb(251, 254, 255);
     }
 .small{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    /* height: 150px; */
     opacity: 70%;
-    border-radius: 30px;
+    border-radius: 10px;
     }
 #smallImages{
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 5px;
     background-color: whitesmoke;
-    border-radius: 30px;
+    border-radius: 10px;
     overflow: hidden;
     margin-bottom: 50px;
 }
 #smallImages>img{
-    margin: 10px;
+    margin: 5px;
 }
