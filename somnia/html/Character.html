@@ -62,26 +62,30 @@
             </div>
             <div class="Cbox2-three">
                 <div class="Cbox2-img" id="Cbox2-2">
-                    <img src="../webproimg/M1.png"></div>
+                    <img src="../webproimg/Mom1.png"></div>
             </div>
             <div class="Cbox2-three">
                 <div class="Cbox2-img" id="Cbox2-3">
-                    <img src="../webproimg/SH1.png"></div>
+                    <img src="../webproimg/YSH1.png"></div>
             </div>
             <div class="Cbox2-three">
                 <div class="Cbox2-img" id="Cbox2-4">
-                    <img src="../webproimg/D1.png"></div>
+                    <img src="../webproimg/Dg1.png"></div>
+            </div>
+            <div class="Cbox2-three">
+                <div class="Cbox2-img" id="Cbox2-5">
+                    <img src="../webproimg/Un1.png"></div>
             </div>
         </div>
         <div class="Cbox3">
             <div class="Cbox3-img">
-                <div class="Cbox-Full"><img src="../webproimg/Bbox.png"></div>
+                <!-- <div class="Cbox-Full"><img src="../webproimg/Bbox.png"></div> -->
                 <div class="Cbox-Full2"><img src="../webproimg/YNH.png"></div>
             </div>
 
         <div class="Cbox3">
             <div class="Cbox3-text">
-                <H1>유나현</H1><p>"내가 서현이를 지켜줘야 하니까."</p><br>
+                <H1>유나현</H1><h4>"내가 서현이를 지켜줘야 하니까."</h4><br>
                 <p>나이: 18세<br>
                     키/몸무게: 165/57<br>
                     소지품: 국궁과 두루마기<br><br>
@@ -95,161 +99,27 @@
                     </p>
             </div>
         </div>
+        <div id="Cbox3-2">
+            <div class="Cbox3-2-text">
+            <H3>정령술사에 대하여</H3>
+            <span style=" font-style: italic; color: white;"><br>
+                그들은 붉은 두루마기를 입고 오묘한 빛을 발하는 노리개를 몸에 지녔다.</span><br><br>
+            <p>자신의 업으로 인해 친우가 가족을 잃은 후 꿈의 신 오네이로스는 네 정령들을 창조하여 정령석에 담아 환웅의 아들 단군에게 주었다.<br>
+                단군은 이를 받아 노리개를 제작하게 되었으니, 노리개는 정령술사의 상징이자 계승의 의미로써 후일 나현의 손에 들어오게 된다.<br><br>
+                정령술사들은 정령들을 다루며 울프의 봉인을 유지하며<br>
+                정령술사의 대를 계승하는 사명을 지니고 있다.<br><br>
+                본디 나현의 어머니인 이경이 당대 정령술사로 봉인을 담당하고 있었으나, 오랜 시간이 지난 탓에 생긴 봉인의 틈을 이용한 울프에 의해 사망하게 된다.<br>
+                이에 2년간의 공석 이후 그의 딸인 유나현이 정령술사의 자리를 계승하게 된다.</P>
+            </div>
+        </div>
     </div>
+    <div id="Cbox3-3"></div>
 
     <div class="bottom-box"></div>
 
 
     <script src="../js/ex2-1.js"></script>
-    <!-- <script>
-        // '신' 캐릭터 클릭 이벤트
-        document.querySelector("#namebox1-2").addEventListener('click', function() {
-            var scriptTag = document.querySelector("script[src]");
-            if (scriptTag) {
-                var srcAttribute = scriptTag.getAttribute("src");
-                console.log(srcAttribute);
-            } else {
-                console.log("No script with src attribute found.");
-            }
-            // '신.js' 파일 로드
-            var script = document.createElement('script');
-            script.src = '../js/ex2-3.js'; // '신.js' 파일의 경로
 
-            // '신.js' 파일이 로드된 후 실행되는 콜백
-            script.onload = function() {
-                console.log("success신")
-                // Cbox2-4 요소를 숨기거나 제거 (선택적)
-                var cbox2_4 = document.querySelector(".Cbox2-three:nth-child(4)");
-                if (cbox2_4) {
-                    cbox2_4.style.display = 'none'; // **숨기기**
-                    //cbox2_4.remove(); // 제거
-                var cbox2_1Image = document.querySelector("#Cbox2-1 img");
-                cbox2_1Image.setAttribute("src", "../webproimg/On1.png"); // 새 이미지 경로로 변경
-                }
-                
-                // '신' 캐릭터 정보 업데이트
-                image2.setAttribute("src","../webproimg/On.png"); // '신' 캐릭터 이미지 경로로 수정
-                text2.innerHTML = 
-                    '<h1>신</h1><p>신 캐릭터에 대한 설명</p>' +
-                    // '신' 캐릭터에 대한 정보 업데이트
-                    '<p>나이: 신의 나이<br>' +
-                    '키/몸무게: 신의 키/몸무게<br>' +
-                    '기타 신에 대한 정보</p>';
-            };
-
-            // 현재 로딩된 스크립트 요소를 삭제
-            var currentScript = document.querySelector("script[src='"+srcAttribute+"']");
-            if (srcAttribute) {
-                currentScript.remove();
-            }
-
-            // 스크립트 요소를 <head>에 추가하여 로드
-            document.head.appendChild(script);
-        });
-    </script>
-
-
-    <script>
-        document.querySelector("#namebox1-3").addEventListener('click', function() {
-            var scriptTag = document.querySelector("script[src]");
-            if (scriptTag) {
-                var srcAttribute = scriptTag.getAttribute("src");
-                console.log(srcAttribute);
-            } else {
-                console.log("No script with src attribute found.");
-            }
-            // '악몽.js' 파일 로드
-            var script = document.createElement('script');
-            script.src = '../js/ex2-4.js'; //수정
-
-            // '악몽.js' 파일이 로드된 후 실행되는 콜백
-            script.onload = function() {
-                console.log("success악몽");
-                console.log(script);
-                // Cbox2-4 요소를 숨기거나 제거 (선택적)
-                var cbox2_4 = document.querySelector(".Cbox2-three:nth-child(4)");
-                if (cbox2_4) {
-                    cbox2_4.style.display = 'none'; // **숨기기**
-                    //cbox2_4.remove(); // 제거
-                var cbox2_1Image = document.querySelector("#Cbox2-1 img");
-                cbox2_1Image.setAttribute("src", "../webproimg/W1.png");
-                }
-                
-                // '악몽' 캐릭터 정보 업데이트
-                image2.setAttribute("src","../webproimg/W.png");
-                text2.innerHTML = 
-                    '<h1>악몽</h1><p>악몽 캐릭터에 대한 설명</p>' +
-                    // '신' 캐릭터에 대한 정보 업데이트
-                    '<p>나이: 신의 나이<br>' +
-                    '키/몸무게: 신의 키/몸무게<br>' +
-                    '기타 신에 대한 정보</p>';
-            };
-
-            // 현재 로딩된 스크립트 요소를 삭제
-            var currentScript = document.querySelector("script[src='"+srcAttribute+"']");
-            if (srcAttribute) {
-                currentScript.remove();
-            }
-
-            // 스크립트 요소를 <head>에 추가하여 로드
-            document.head.appendChild(script);
-        });
-    </script>
-
-    <script>
-        // '인간' 캐릭터 클릭 이벤트
-        document.querySelector("#namebox1-1").addEventListener('click', function() {
-            var scriptTag = document.querySelector("script[src]");
-            if (scriptTag) {
-                var srcAttribute = scriptTag.getAttribute("src");
-                console.log(srcAttribute);
-            } else {
-                console.log("No script with src attribute found.");
-            }
-            var script = document.createElement('script');
-            var currentScriptSrc = script;
-            script.src = '../js/ex2-2.js'; // '인간.js' 파일의 경로
-
-            // 버튼 클릭 직후 event
-            script.onload = function() {
-                console.log(currentScriptSrc);
-                // Cbox2-4 요소를 숨기거나 제거 (선택적)
-                var cbox2_4 = document.querySelector(".Cbox2-three:nth-child(4)");
-                if (cbox2_4) {
-                    cbox2_4.style.display = 'block'; // **보이기**
-                    //cbox2_4.remove(); // 제거
-                var cbox2_1Image = document.querySelector("#Cbox2-1 img");
-                cbox2_1Image.setAttribute("src", "../webproimg/YNH1.png"); // 새 이미지 경로로 변경
-                }
-                
-                // 유나현 캐릭터정보
-                image.setAttribute("src","../webproimg/YNH.png");
-                text1.innerHTML = 
-                    '<H1>유나현</H1><p>"내가 서현이를 지켜줘야 하니까."</p><br>'+
-                    '<p>나이: 18세<br>'+
-                        '키/몸무게: 165/57<br>'+
-                        '소지품: 국궁과 두루마기<br><br>'+
-                        '편모가정에서 자라 16세의 어린 나이에 어머니를 잃고<br>'+
-                        '18세 생일이 지난 다음날 동생마저 차례로 악몽에 먹혀버리고 만다.<br>'+
-                        '동생을 아끼는 다정한 언니로 유대관계가 좋은 자매였으며, <br>'+
-                        '동생을 구하기 위해 정령술사의 운명을 받아들인다.<br><br>'+
-                        '청소년 양궁부에서 활약하고 있으며 이를 토대로 악몽에 들어가서도 활을 이용한 전투를 한다.<br><br>'+
-                        '여러 공포에 맞서 싸워야 하는 상황에 두려움을 느끼지만,<br>'+
-                        '선천적으로 지닌 용감한 성격으로 이를 이겨내며 나아간다.</p>';
-            };
-
-            // 현재 로딩된 스크립트 요소를 삭제
-            var currentScript = document.querySelector("script[src='"+srcAttribute+"']");
-            if (srcAttribute) {
-                console.log("successremove")
-                currentScript.remove();
-            }
-
-            // 스크립트 요소를 <head>에 추가하여 로드
-            document.head.appendChild(script);
-        });
-    </script>
-    <script src="../js/ex2-3.js"></script> -->
 </body>
 
 </html>

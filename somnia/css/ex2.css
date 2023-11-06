@@ -34,6 +34,14 @@
 h1{
     color: white;
 }
+h3{
+    color: rgb(243, 184, 210);
+}
+h4{
+    color: rgb(238, 226, 226);
+    font-size: 12pt;
+    font-style: italic;
+}
 
 .Mbox3{
     margin-bottom: 100px;
@@ -81,32 +89,40 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 40px;
 }
 .Cbox3-text{
     text-align: left;
     position: relative;
-    left: 280px;
-    top: -67px;
+    left: 320px;
+    top: -10px;
+}
+.Cbox3-2-text{
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+#Cbox3-3{
+    margin-top: 200px;
 }
 
 .Cbox3-img{
     position: relative;
-    width: 50%;
+    /* width: 80%;*/
     height: 100%;
     right: 90px;
 }
 
 .Cbox-Full, .Cbox-Full2{
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .Cbox-Full>img, .Cbox-Full2>img{
-    width: 90%;
+    /* width: 80%; */
+    height: 550px;
 }
 
 .Cbox-Full2{
-    transform: translate(-8%, 0%);
-    width: 120%;
+    transform: translate(-15%, 0%);
+    /* width: 95%; */
 }

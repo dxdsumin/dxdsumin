@@ -94,7 +94,7 @@ a{
 .PT{
     width: 100%;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 110px;
 }
 .PT>img{
     width: 15%;
@@ -107,6 +107,7 @@ a{
 .PT1>img{
     width: 12%;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .user-text{
