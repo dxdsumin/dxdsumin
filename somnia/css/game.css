@@ -1,11 +1,19 @@
+body {
+    height: 3000px;
+    background-image:url("../webproimg/story_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #content{
+    margin-top: 1800px;
     padding: 50px;
     padding-bottom: 0;
     text-align: center;
     }
 
 #bigImages{
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     }
 #big{
     /* width: 370px; */
