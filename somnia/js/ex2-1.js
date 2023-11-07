@@ -165,7 +165,7 @@ mbox13.addEventListener('click', function(){
     //신 상태일 때 -> 업데이트 필요
     else if (state==1){
         // '신' 캐릭터 정보 업데이트
-        image.setAttribute("src","../webproimg/Fairy_full.png"); // '신' 캐릭터 이미지 경로로 수정
+        image.setAttribute("src","../webproimg/Fairy_Full.png"); // '신' 캐릭터 이미지 경로로 수정
         text1.innerHTML = 
             '<h1>델루</h1><p>용기의 정령</p><br>' +
             // '신' 캐릭터에 대한 정보 업데이트
