@@ -41,6 +41,7 @@ body {
 }
 
 .material-icons {
+    padding: 50px;
     color: white;
     font-family: 'Material Icons';
     font-size: 48px;
