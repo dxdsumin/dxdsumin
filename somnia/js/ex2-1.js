@@ -135,13 +135,44 @@ mbox12.addEventListener('click', function(){
     }
     //악몽 상태 -> 업데이트 필요
     else if (state==2){
-        image.setAttribute("src","../webproimg/W1.png"); // '신' 캐릭터 이미지 경로로 수정
+        image.setAttribute("src","../webproimg/monster_Full.png"); // '신' 캐릭터 이미지 경로로 수정
         text1.innerHTML = 
-            '<h1>울프</h1><p>악몽 캐릭터에 대한 설명</p>' +
+        '<br><br><br><br>'+
+            '<h1>분노</h1><br><p>첫 번째 악</p><br>' +
             // '악몽' 캐릭터에 대한 정보 업데이트
-            '<p>나이: 신의 나이<br>' +
-            '키/몸무게: 신의 키/몸무게<br>' +
-            '기타 신에 대한 정보</p>';
+            '<p>울프가 집어삼킨 지성 있는 것들의 흔적이자 파편으로,<br>' +
+            '흔히 찌꺼기라 불리웠다.<br>' +
+            '형태 없는 사념체에 가깝고, 바닥을 기거나 벽, 천장 등에<br>' +
+            '늘러붙어 꿈의 초입을 점령한다.</p>'+
+
+            '<br><br><br><br><br><br><br><br><br><br>'+
+
+            '<h1>교만</h1><br><p>두 번째 공포</p><br>' +
+            // '악몽' 캐릭터에 대한 정보 업데이트
+            '<p>그것들은 아직 인간이지만 인간이 아니며,<br>' +
+            '찌꺼기들의 재구성 과정에서<br>' +
+            '온전한 인간의 형태로 융합되어 발생했다.<br>' +
+            '이들을 여전히 인간으로 볼 수 있는가.</p>'+
+
+            '<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>'+
+
+            '<h1>나태</h1><br><p>세 번째 악</p><br>' +
+            // '악몽' 캐릭터에 대한 정보 업데이트
+            '<p>인간이 인간으로, 개인이 개인으로 남기 위해<br>' +
+            '반드시 지녀야 하는 것.<br>' +
+            '이를 인간에게서 빼앗고 집어삼키며 살아가는 괴물은<br>' +
+            '우리 주변 어디에서나 나타나며<br>'+
+            '한순간에 이빨을 드러낸다.</p>'+
+
+            '<br><br><br><br><br><br><br><br><br><br><br><br>'+
+            
+            '<h1>질투</h1><br><p>네 번째 악</p><br>' +
+            // '악몽' 캐릭터에 대한 정보 업데이트
+            '<p>인간을 증오하고 혐오하며 시기하는 최정상의 것.<br>' +
+            '일생 인간의 꿈 아래 빌붙어 떨어지는 것을 구걸하던<br>' +
+            '어린 느개에게서 태어난 애증의 존재.<br>' +
+            '모든 존재에 부정당한 이것은 모든 것을 갈구하고, 탐하며<br>'+
+            '증오하지만 사랑한다.</p>';
     }
 });
 
@@ -371,7 +402,7 @@ function turnToNM(){
     var cbox2_1Image = document.querySelector("#Cbox2-1 img");
     cbox2_1Image.setAttribute("src", "../webproimg/W1.png");
     var cbox2_2Image = document.querySelector("#Cbox2-2 img");
-    cbox2_2Image.setAttribute("src", "../webproimg/W1.png");
+    cbox2_2Image.setAttribute("src", "../webproimg/monsterlogo1.png");
     //***위 두 줄 참고해서 나머지 미니이미지 경로 변경***
 
     

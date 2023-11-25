@@ -6,6 +6,7 @@
     <title> SOMNIA </title>
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/game.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -38,39 +39,44 @@
         </div>
     </div>
 
-    <div id="content">
-        <div id="bigImages">
-            <img id="big" src="../webproimg/ui1.png">
+    <div class="character-content2">
+        <div class="PT">
+            <img src="../webproimg/geulPT1.png">
         </div>
-        <div id="smallImages">
-            <img class="small" src="../webproimg/ui1.png">
-            <img class="small" src="../webproimg/ui2.png">
-            <img class="small" src="../webproimg/ui3.png">
-            <img class="small" src="../webproimg/ui4.png">
-            <img class="small" src="../webproimg/ui5.png">
-            <img class="small" src="../webproimg/ui6.png">
-            <img class="small" src="../webproimg/ui7.png">
-            <img class="small" src="../webproimg/ui8.png">
-            <img class="small" src="../webproimg/ui9.png">
-            <img class="small" src="../webproimg/ui10.png">
-            <img class="small" src="../webproimg/ui11.png">
+        <p>인게임 UI</p>
+        <div class="PT1">
+            <img src="../webproimg/geulPT2.png">
         </div>
     </div>
 
-    <!-- <div class="bottom-box"></div> -->
+    <div id="content">
+        <div id="before">
+            <span class="material-icons md-48" style="font-size: 48px;">
+                navigate_before
+            </span>
+        </div>
+        <div id="bigImages">
+            <img id="big" src="../webproimg/ui1.png" class="1">
+        </div>
+        <span class="material-icons md-48" style="font-size: 48px;" id="after">
+            navigate_next
+        </span>
+    </div>
 
     <script>
     var bigPic = document.querySelector("#big");
-var smallPics = document.querySelectorAll(".small");
+    var smallPics = document.querySelectorAll(".small");
 
-for(var i = 0 ; i < smallPics.length ; i++){
-    smallPics[i].onclick = changepic;
-}
+    for(var i = 0 ; i < smallPics.length ; i++){
+        smallPics[i].onclick = changepic;
+    }
 
-function changepic(){
-    var smallPicAttribute = this.getAttribute("src");
-    bigPic.setAttribute("src", smallPicAttribute);
-}
-</script>
+    function changepic(){
+        var smallPicAttribute = this.getAttribute("src");
+        bigPic.setAttribute("src", smallPicAttribute);
+    }
+    </script>
+    
+    <script src="../js/game.js"></script>
 
 </body>

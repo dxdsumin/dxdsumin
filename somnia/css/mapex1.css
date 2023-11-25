@@ -17,6 +17,12 @@ body {
     height:fit-content; */
     font-family: 'HeiroLight'; 
     margin: 0; padding: 0;
+
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
 }
 .top-nav{
     position: fixed;
@@ -189,6 +195,15 @@ p{
     text-align: center;
 }
 
+/* #AP3 {
+    position: fixed;
+    top: 120px;
+    left: -2000px;
+    width: 400px;
+    text-align: center;
+    right: 50px;
+} */
+
 #bg-img3 {
     position: fixed;
     object-fit: cover;
@@ -251,4 +266,16 @@ p{
     height: 100%;
     object-fit: cover;
     pointer-events: none;
+}
+
+
+.material-icons {
+    color: white;
+    font-size: 48px;
+}
+.icon{
+    position: fixed;
+    top: 800px;
+    left: 740px;
+    z-index: 1000;
 }

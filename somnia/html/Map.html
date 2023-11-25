@@ -6,6 +6,7 @@
     <title>SOMNIA</title>
     <link href="../css/mapex1.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -23,9 +24,14 @@
     <div class="Cover">
         <img src="../webproimg/CoverP.png">
     </div>
-
     <!-- <div id="box1">
     </div> -->
+    <div class="icon">
+        
+        <span class="material-icons md-48" style="font-size: 48px;">
+            expand_more
+            </span>
+    </div>
 
     <div id="bg-img1">
         <img src="../webproimg/OH.png">
@@ -59,13 +65,7 @@
     <img id="OH3" src="../webproimg/monster2.png">
 
     <div id="oldschool1">
-        <!-- <div class="PT">
-            <img src="../webproimg/geulPT1.png">
-        </div> -->
         <h1>폐교</h1>
-        <!-- <div class="PT1">
-            <img src="../webproimg/geulPT2.png">
-        </div> -->
     </div>
     <div id="oldschool2">
         <p>
@@ -91,6 +91,7 @@
             세 번째 절망의 나태를 죽이고 울프에게 다가가자.<br><br>
         </p>
     </div>
+    <!-- <div id="AP3" src="../webproimg/monster3.png"> -->
 
     <div id="F1">
         <h1>숲 속</h1>
@@ -228,6 +229,16 @@
                 }
                 if(yPos >= 3600) {
                     $('#AP2').stop().animate({'left': '-2000px'}, 500);
+                }
+
+                if(yPos >= 2900) {
+                    $('#AP3').stop().animate({'left': '240px'}, 500);
+                } else {
+                    $('#AP3').stop().animate({'left': '-2000px'}, 500);
+                    
+                }
+                if(yPos >= 3600) {
+                    $('#AP3').stop().animate({'left': '-2000px'}, 500);
                 }
 
                 if (yPos >= 3600) {
