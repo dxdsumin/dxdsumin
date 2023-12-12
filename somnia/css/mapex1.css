@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 5000px;
+    height: 5400px;
     scrollbar-width: none;
     -ms-overflow-style: none;
     /* overflow-y: hidden;
@@ -102,14 +102,14 @@ p{
 
 #OH2 {
     position: fixed;
-    top: 500px;
+    top: 600px;
     left: -2000px;
     width: 800px;
 }
 
 #OH3 {
     position: fixed;
-    top: 200px;
+    top: 30%;
     right: -2000px;
     width: 400px;
 }
@@ -136,7 +136,7 @@ p{
 #oldschool1 {
     position: fixed;
     width: 100px;
-    top: 120px;
+    top: 20%;
     left: -2000px;
     height: 400px;
     /* text-align: center; */
@@ -146,7 +146,7 @@ p{
 
 #oldschool2 {
     position: fixed;
-    top: 200px;
+    top: 29%;
     right: -2000px;
     width: 700px;
     text-align: left;
@@ -154,7 +154,7 @@ p{
 
 #oldschool3 {
     position: fixed;
-    top: 450px;
+    top: 58%;
     right: -2000px;
     width: 400px;
     text-align: left;
@@ -181,7 +181,7 @@ p{
 
 #AP1 {
     position: fixed;
-    top: 300px;
+    top: 38%;
     right: -2000px;
     text-align: center;
     font-size: 40px;
@@ -189,7 +189,7 @@ p{
 
 #AP2 {
     position: fixed;
-    top: 500px;
+    top: 55%;
     right: -2000px;
     width: 800px;
     text-align: center;
@@ -226,14 +226,14 @@ p{
 #F1 {
     position: fixed;
     bottom: -2000px;
-    left: 679px;
+    left: 46%;
     text-align: center;
     font-size: 40px;
 }
 
 #F2 {
     position: fixed;
-    top: 450px;
+    top: 530px;
     right: -2200px;
     width: 700px;
     text-align: center;
@@ -275,8 +275,8 @@ p{
 }
 .icon{
     position: fixed;
-    top: 800px;
-    left: 740px;
+    top: 91%;
+    left: 48%;
     z-index: 1000;
     animation: motion 0.3s linear 0s infinite alternate;
     -webkit-animation: motion 0.3s linear 0s infinite alternate;

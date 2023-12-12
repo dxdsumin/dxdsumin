@@ -45,3 +45,15 @@ function init(){
   }
   
   window.onload = init;
+
+  var autoplayVideoInterval = setInterval("autoplayVideo()",100);
+
+function autoplayVideo(){
+	var promise = document.querySelector('.Pvideo').play();
+	if (promise !== undefined){	
+		promise.then(_=>{
+		clearInterval(autoplayVideoInterval);
+	}).catch(error =>{
+	});
+	}
+}
